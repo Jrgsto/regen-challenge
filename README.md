@@ -1,5 +1,6 @@
-Functionality:
 Basic application which has a basic layout and header with the following functionality
+
+Functionality:
 - Connect your wallet to regen network via keplr extentions
 - Add testnet chain to your wallet
 - On connection shows your balance of uregen
