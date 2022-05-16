@@ -1,4 +1,4 @@
-Basic application which has a basic layout and header with the following functionality
+Basic application which has a basic layout and header covering the functionallity described within this code challenge: https://github.com/regen-network/front-end-challenge/blob/main/account-viewer-challenge.md
 
 Functionality:
 - Connect your wallet to regen network via keplr extentions
