@@ -49,19 +49,9 @@ module.exports = {
       filename: "bundle.js",
     },
     plugins: [
-      // new ForkTsCheckerWebpackPlugin({
-      //   async: false,
-      // }),
       new webpack.ProvidePlugin({
         Buffer: ["buffer", "Buffer"],
       }),
     ],
-    // devServer: {
-    //   static: path.join(__dirname, "build"),
-    //   compress: true,
-    //   port: 4000,
-    //   hot: true,
-    //   historyApiFallback: true,
-    // },
   },
 };
