@@ -1,0 +1,62 @@
+{
+  "name": "regen-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "@cosmjs/stargate": "^0.28.4",
+    "@craco/craco": "^6.4.3",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@keplr-wallet/types": "^0.10.3",
+    "@mui/material": "^5.7.0",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.51.0",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "scripts": {
+    "start": "craco start && postcss src/styles/index.css -o public/index.css",
+    "build": "craco build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/runtime": "^7.17.9",
+    "@types/fork-ts-checker-webpack-plugin": "^0.4.5",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "css-loader": "^6.7.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.11",
+    "postcss-cli": "^9.1.0",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "webpack-cli": "^4.9.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
